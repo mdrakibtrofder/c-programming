@@ -5,11 +5,15 @@ Write a C program to check whether a year is a leap year
 
 int main() {
     int year;
+    printf("Enter a year: ");
     scanf("%d", &year);
-
-    if((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
+    if(year % 4 == 0 && year % 100 != 0) {
         printf("Leap Year");
-    } else {
+    } 
+    else if (year % 400 == 0) {
+        printf("Leap Year");
+    }
+    else {
         printf("Not Leap Year");
     }
 

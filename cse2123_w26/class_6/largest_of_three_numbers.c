@@ -7,11 +7,11 @@ int main() {
     int a = 5, b = 8, c = 3;
 
     if (a > b && a > c) {
-        printf("a is largest\n");
+        printf("a is largest number\n");
     } else if (b > c) {
-        printf("b is largest\n");
+        printf("b is largest number\n");
     } else {
-        printf("c is largest\n");
+        printf("c is largest number\n");
     }
 
     return 0;
