@@ -9,7 +9,7 @@ int main() {
     int i;
     printf("Initialized marks in the array:\n");
     for (i = 0; i < 5; i++) {
-        printf("Subject %d: %d\n", i + 1, marks[i]);
+        printf("Subject %d-%d: %d\n",i, i + 1, marks[i-1]);
     }
     return 0;
 }
